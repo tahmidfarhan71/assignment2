@@ -1,0 +1,123 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* header section style  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.title-and-link{
+    margin-left: 156px;
+    margin-right: 102px;
+}
+.title-and-link h1{
+    font-size: 64px;
+    font-weight: 700;
+    width: 485px;
+    color: white;
+}
+.header-section{
+    width: 1440px;
+    background-color: #2D25A0;
+    display: flex;
+}
+.link{
+    margin-bottom: 169px;
+    
+}
+.link a{
+    text-decoration: none;
+    width: 168px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 5px;
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+}
+
+/* player section styles  */
+
+.player-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-row-gap: 30px;
+    margin-left: 180px;
+    margin-top: 70px;
+}
+
+.players{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+}
+.players img{
+    width: 300px;
+    height: 256px;
+}
+.players p{
+    color: #6C6C6C;
+}
+.makeup{
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.404);
+}
+
+/* special styles  */
+
+.Special{
+    display: flex;
+    margin-top: 165px;
+}
+.EH{
+    margin-top: 100px;
+}
+.EH a{
+    text-decoration: none;
+    width: 168px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 5px;
+}
+.EH-pic{
+    margin-left: 500px;
+}
+.EH-pic img{
+    width: 567px;
+    height: 427px;
+}
+.EH-pic:hover {
+    transform: scale(1.12) rotate(360deg);
+    transition: transform 1s ease-in-out ;
+}
+
+/* footer section styles  */
+
+.logo img{
+    Width: 483.87px;
+    ;
+}
+.footer-section{
+    margin-top: 158px;
+    align-items: center;
+    margin-left: 475px;
+}
+.social-pic img{
+    Width: 17.07px;
+    Height: 17.07px;
+}
+
+@media only screen and (max-width:688px) {
+    main{
+        width: 100%;
+    }
+    .header-section, .player-section, .Special .footer-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players{
+        flex-direction: column;
+    }
+
+}
